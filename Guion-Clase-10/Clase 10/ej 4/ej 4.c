@@ -1,15 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) 
+{
 	int i,tpa=0,si=0,ci;
 	float pg,pgc,pc,acu,n=1,cont=1,nt=0,nottp,mvp;
-	for (i=1;i<51;i++){
+	for (i=1;i<51;i++)
+	{
 		printf("\n\n Ingrese la nota del trabajo practico ");
 		scanf("%f",&nottp);
 		printf("\n Ingrese una nota ");
 		scanf("%f",&n);
-			while(ln>=0){
+			while(ln>=0)
+			{
 			cont=cont+1;
 			acu=ln+acu;
 			printf("\n Ingrese otra nota ");
@@ -22,12 +25,14 @@ int main(int argc, char *argv[]) {
 	nt=nottp+acu;
 	pg=nt/cont;
 	pgc=pgc+pg;
-			if (pg>mvp){
+			if (pg>mvp)
+			{
 				mvp=pg;
 				ci=i;
 			}
 
-			if (cont<=2){
+			if (cont<=2)
+			{
 			si=si+1;
 			}
 

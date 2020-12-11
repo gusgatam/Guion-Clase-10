@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) 
+{
 	int fct,ctd,pouo,nmp,pmv,mi,vt;
 	printf("\n Ingrese el numero de factura ");
 	scanf("%d",&fct);
-	 while (fct!=999){
+	 while (fct!=999)
+	 {
 		printf("\n Ingrese la cantidad ");
 		scanf("%d",&ctd);
 		printf("\n Ingrese el precio unitario ");
@@ -13,10 +15,12 @@ int main(int argc, char *argv[]) {
 		printf("\n Ingrese el numero de producto ");
 		scanf("%d",&nmp);
 				vt=ctd*pouo;
-					if (vt>mv){
+					if (vt>mv)
+					{
 						mi=vt;
 					}
-				if (ctd>pmv) {
+				if (ctd>pmv) 
+				{
 					pmv=nmp;
 				}
 	printf("\n //////////////////////////////////////////////////////////");
